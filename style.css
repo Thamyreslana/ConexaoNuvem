@@ -1,0 +1,10 @@
+
+@import url(home.css/cabecalho.css);
+@import url(home.css/quero-adotar.css);
+
+
+body {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
