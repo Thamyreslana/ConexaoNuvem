@@ -1,0 +1,118 @@
+main{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #e8ecf5;
+    
+}
+
+.titulo_pagina{
+    margin: 20px 0 20px 0;
+    color: #142b47;
+    font-size: 26px;
+}
+
+.container_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    background-color: #e1e1f8;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.container_buscar, .container_buscar2{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_select input, select, textarea {
+    border-color: #3F72AF;
+    border-radius: .375rem;
+    border-width: 2px;
+    margin-top: .25rem;
+    padding: .5rem;
+    font-size: 22px;
+    color: #142b47;
+    background-color: #e8ecf5;
+}
+
+.form_select2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+ 
+.campo_busca{
+    border-color: #3F72AF;
+    border-radius: .375rem;
+    border-width: 2px;
+    margin-top: .25rem;
+    padding: .5rem;
+    font-size: 22px;
+    text-align: center;
+    color: #142b47;
+    background-color: #e8ecf5;
+}
+
+.form_button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao_busca {
+    border-color: #3F72AF;
+    background-color: #DBE2EF;
+    border-radius: .5rem;
+    border-width: 2px;
+    margin-top: .25rem;
+    padding: .5rem 5rem;
+    font-size: 22px;
+    color: #142b47;
+    
+}
+
+/*  Grid  */
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.grid_item {
+    background-color: #3498DB; /* Cor de fundo dos itens */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.foto_pet {
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: .50rem;
+}
+
+.descicao_pet, a, h3 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #DBE2EF;
+    margin: .50rem 0 0 0;
+}

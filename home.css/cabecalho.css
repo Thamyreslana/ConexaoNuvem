@@ -1,0 +1,55 @@
+.cabecalho{
+    background-color: white;
+    
+}
+
+.cabecalho_conteudo{
+    max-width: 1224px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.container_titulo{
+    margin: 1rem 0;
+    color: black;
+}
+
+.lista_menu{
+    display: flex; 
+    margin-right: auto;
+    padding: 0 0 0 5em;
+}
+
+.menu_item {
+    margin: .50rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.link_entrar {
+    margin: .50rem;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+
+.link_cadastro {
+    margin: .50rem;
+    background-color: blueviolet;
+    padding: .50rem;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+}
+

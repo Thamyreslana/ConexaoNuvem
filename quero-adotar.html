@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>AmigoFiel</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <div class="cabecalho_conteudo">
+            <div class="container">
+                <a class="container_titulo" href="index.html"> Logo / Titulo</a>
+            </div>
+
+            <ul class="lista_menu">
+                <a class="menu_item" href="quem-somos.html">QUEM SOMOS</a>
+                <a class="menu_item" href="quero-adotar.html">QUERO ADOTAR</a>
+                <a class="menu_item" href="quero-ajudar.html">QUERO AJUDAR</a>
+            </ul>
+
+            <div class="container">
+                <a href="#" class="link_entrar">
+                    <p class="texto_entrar">ENTRAR</p>
+                </a>
+                <a href="#" class="link_cadastro">
+                    <p class="texto_cadastrar">CADASTAR-SE</p>
+                </a>
+            </div>
+        </div>  
+    </header>
+
+    <main>
+        
+        <div class="titulo_pagina">
+            <h1>Encontre seu amiguinho de estimação aqui</h1>
+        </div>
+
+        <div class="container_main">
+            <div class="formulario">
+                <form>
+                <div class="container_buscar">
+                    <div class="form_select">
+                        <select id="especie" name="especie">
+                            <option value>Todas as espécies</option>
+                            <option value="Cachorro">Cachorro</option>
+                            <option value="Gato">Gato</option>
+                        </select>
+                    </div>
+                    <div class="form_select">
+                        <select id="raca" name="raca">
+                            <option value>Todas as raças</option>
+                        </select>
+                    </div>
+                    <div class="form_select">
+                        <select name="idade" id="idade">
+                            <option value>Todas as idades</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="container_buscar2">
+                    <div class="form_select2">
+                        <select id="tamanho" name="tamanho">
+                            <option value>Tamanho</option>
+                        </select>
+                    </div>
+                    <div class="form_select2">
+                        <select id="sexo" name="sexo">
+                            <option value>Sexo</option>
+                        </select>
+                    </div>
+                    <div class="form_select2">
+                        <input class="campo_busca" id="busca" name="busca" placeholder="Busque pelo nome" type="text">
+                    </div>
+                </div>    
+                    <div class="form_button">
+                        
+                            <button type="submit" class="botao_busca">Buscar</button>
+                        
+                    </div>
+                
+                </form>
+
+            </div>
+            
+            <div class="grid_container">
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+                
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+
+                <div class="grid_item">
+                    <img class="foto_pet" src="imgs/pet1.png">
+                    <a class="descricao_pet" href="">Item 1</a>
+                    <h3 class="descricao_pet">São Paulo - SP</h3>
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="conteudo_rodape">
+
+            <div class="rodape_contato">
+                <div class="contato_lista">
+                    <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+                    <p>Telefone: (11) 1234-5678 | Email: contato@ongadocao.org</p>
+                    <p>Horário: Seg-Sex, 9h-18h</p>
+                </div>
+            </div>
+            
+            <div class="rodape_links">
+                <div class="links_lista">   
+                    <a href="#">Sobre Nós</a> 
+                    <a href="#">Adote um Animal</a> 
+                    <a href="#">Doe</a> 
+                    <a href="#">Voluntarie-se</a>  
+                    <a href="#">Contato</a>
+                </div>
+            </div>
+        
+            <div class="rodape_legal">
+                <div class="legal_lista">
+                    <a href="#">Política de Privacidade</a> 
+                    <a href="#">Termos de Uso</a> 
+                    <a href="#">Política de Cookies</a>
+                </div>
+            </div>
+            
+            <div class="rodape_doacao">
+                <a href="#" class="doacao-button">Doe Agora</a>
+            </div>
+
+        </div>
+        <div class="rodape_social">
+            <a href="#"><i class="fab fa-facebook"></i>facebook</a>   <!--logo das redes sociais-->
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+        </div>
+        <div class="rodape_copy">
+            <p>&copy; 2024 Nome da ONG de Adoção. Todos os direitos reservados.</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
