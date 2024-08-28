@@ -1,42 +1,55 @@
-header{
-    width: 100%;
-    background-color: #7575d6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-}
-.logo-texto{
-    margin-left: 20px;
-    color: white;
+.cabecalho{
+    background-color: white;
     
 }
-.logo-texto a{
-    text-decoration: none;
-    color:white;
+
+.cabecalho_conteudo{
+    max-width: 1224px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
 }
 
-.menu li{
-    display: inline-block;
-    margin: 0 10px;
+.container_titulo{
+    margin: 1rem 0;
+    color: black;
 }
-.menu li a{
-    font-size: 13px;
-    text-decoration: none;
-    color:white;
-    text-transform: uppercase;
-    padding: 10px 15px;
-    border-radius: 15px;
+
+.lista_menu{
+    display: flex; 
+    margin-right: auto;
+    padding: 0 0 0 5em;
 }
-.menu li a:hover{
-    background-color: rgba(100, 100, 100, 0.5);
+
+.menu_item {
+    margin: .50rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
 }
-main{
-    width: auto;
-    height: 600px;
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
 }
-footer{
-    background-color:#7575d6;
-    width: auto;
-    height: auto;
+
+.link_entrar {
+    margin: .50rem;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
 }
+
+.link_cadastro {
+    margin: .50rem;
+    background-color: blueviolet;
+    padding: .50rem;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,44 @@
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    
+}
+
+.conteudo_rodape {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem 2rem;
+}
+
+.contato_lista, .links_lista, .legal_lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contato_lista p{
+    margin: .50rem;
+}
+
+
+.rodape-doacao .donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Cor de fundo do botão de doação */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer; /* Cursor de mãozinha */
+}
+
+.rodape-doacao .donate-button:hover {
+    background-color: #c0392b; /* Cor do botão ao passar o mouse */
+}

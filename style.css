@@ -1,10 +1,20 @@
 
 @import url(home.css/cabecalho.css);
 @import url(home.css/quero-adotar.css);
+@import url(home.css/rodape.css);
+
+:root {
+    --cor-fundo-pagina: #DBE2EF;     /* Isso são variaveris de CSS*/
+    --cor-fonte-pagina: #112D4E;
+    --cor-cabecalho-rodape: #3F72AF;
+    --cor-detalhes: #F9F7F7;
+}
 
 
 body {
-    max-width: 1180px;
+    
     margin: 0 auto;
-    padding: 0 20px;
+    
+    background-color: var(--cor-fundo-pagina);
+
 }
