@@ -26,6 +26,10 @@ footer {
     margin: .50rem;
 }
 
+.rodape_links a, .legal_lista a, .rodape_doacao a {
+    color: #fff;
+    text-decoration: none;   
+}
 
 .rodape-doacao .donate-button {
     display: inline-block;
@@ -39,6 +43,6 @@ footer {
     cursor: pointer; /* Cursor de mãozinha */
 }
 
-.rodape-doacao .donate-button:hover {
+.rodape_doacao .donate-button:hover {
     background-color: #c0392b; /* Cor do botão ao passar o mouse */
 }

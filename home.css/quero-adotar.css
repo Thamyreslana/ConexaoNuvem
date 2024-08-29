@@ -1,4 +1,6 @@
 main{
+    max-width: 1040px;
+    margin: auto;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
@@ -89,30 +91,49 @@ main{
 
 .grid_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 5 colunas de tamanho igual */
-    gap: 10px; /* Espaçamento entre os itens */
-    padding: 20px; /* Espaçamento interno */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
 }
 
 .grid_item {
-    background-color: #3498DB; /* Cor de fundo dos itens */
-    color: white; /* Cor do texto */
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
     text-align: center;
-    font-size: 16px;
-    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.foto_pet {
-    width: auto;
+.grid_item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.foto_pet {       /*  principal para imagem caber dentro do grid */
+    width: 100%;
     height: auto;
-    border-radius: 25px;
-    margin-bottom: .50rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-.descicao_pet, a, h3 {
-    font-size: 20px;
+.descricao_pet {
+    color: #333;
     text-decoration: none;
-    color: #DBE2EF;
-    margin: .50rem 0 0 0;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.descricao_pet:hover {
+    color: #007bff;
+}
+
+
+h3.descricao_pet {
+    font-size: 1em;
+    color: #667;
+    margin: 0;
+    font-weight: normal;
 }
