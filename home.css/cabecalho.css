@@ -1,63 +1,35 @@
 .cabecalho{
-    background-color: white;
+    background-color: var(--cor-cabecalho-rodape);
     
 }
 
-.cabecalho_conteudo{
-    max-width: 1224px;
+.cabecalho_conteudo {
+    max-width: 1200px;
     margin: auto;
+    padding: 1.85rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    padding: 0 2rem;
 }
 
-.container_titulo{
-    margin: 1rem 0;
-    color: black;
+.cabecalho_titulo {
+    font-size: 1.5rem;
     text-decoration: none;
+    color: var(--cor-fonte-pagina);
 }
 
-.lista_menu{
-    display: flex; 
-    margin-right: auto;
-    padding: 0 0 0 5em;
-}
-
-.lista_menu a {
+.cabecalho_menu_item {
+    margin: 1.4rem;
+    font-size: 1.05rem;
     text-decoration: none;
+    color: var(--cor-fonte-pagina);
 }
 
-.menu_item {
-    margin: .50rem;
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    padding: 0 2rem;
-}
-
-.link_entrar {
-    margin: .50rem;
-    font-size: 22px;
-    color: black;
-    font-weight: 600;
+.cabecalho_horario {
+    padding: 1rem;
+    background-color: var(--cor-cabecalho-horario);
+    border-radius: 30px;
+    font-size: 1.1rem;
     text-decoration: none;
+    color: var(--cor-fonte-horario);
 }
-
-.link_cadastro {
-    margin: .50rem;
-    background-color: blueviolet;
-    padding: .50rem;
-    border-radius: 8px;
-    font-size: 22px;
-    font-weight: 600;
-    text-decoration: none;
-    color: aliceblue;
-}
-
