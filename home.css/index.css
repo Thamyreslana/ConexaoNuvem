@@ -1,0 +1,37 @@
+.section_1 {
+    padding: 2rem;
+}
+
+.container_marca {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #fad4c0;*/
+   
+    background: linear-gradient(135deg, #d0efff, #fad4c0);
+    align-items: center;
+    border-radius: 18px;
+}
+
+.titulo_marca {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    font-weight: 600;
+}
+
+.texto_apresentacao {
+    margin-left: 2.5rem;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.img_banner {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    margin: .75rem;
+}

@@ -1,14 +1,15 @@
 
 @import url(home.css/cabecalho.css);
 @import url(home.css/rodape.css);
+@import url(home.css/index.css);
 
 :root {
-    --cor-fundo-pagina: #dde1eb;     /* Isso são variaveris de CSS*/
+    --cor-fundo-pagina: white;     /* Isso são variaveris de CSS*/
     --cor-fonte-pagina: #031120;
     --cor-fonte-horario: white;
 
     
-    --cor-cabecalho-rodape: #f8f8f8;
+    --cor-cabecalho-rodape: (135deg, #d0efff, #fad4c0);
     --cor-cabecalho-horario: black;
     --cor-detalhes: #F9F7F7;
 }

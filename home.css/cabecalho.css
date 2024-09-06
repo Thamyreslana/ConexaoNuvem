@@ -1,5 +1,7 @@
 .cabecalho{
-    background-color: var(--cor-cabecalho-rodape);
+    /*background-color: var(--cor-cabecalho-rodape);*/
+    background: linear-gradient(135deg, #99dafa 50%, #d5eefa 100%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -20,16 +22,27 @@
 
 .cabecalho_menu_item {
     margin: 1.4rem;
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--cor-fonte-pagina);
 }
 
 .cabecalho_horario {
-    padding: 1rem;
-    background-color: var(--cor-cabecalho-horario);
+    padding: .85rem;
     border-radius: 30px;
-    font-size: 1.1rem;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-decoration: none;
-    color: var(--cor-fonte-horario);
+    color: black;
+
+}
+
+.cabecalho_horario:hover {
+    background-color: #669DB1;
+    border-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* SOMBRA */
+    transition: 400ms;
+    color: floralwhite;
 }
