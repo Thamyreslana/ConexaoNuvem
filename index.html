@@ -18,7 +18,7 @@
             </div>
 
             <ul class="cabecalho_menu">
-                <a class="cabecalho_menu_item" href="sobre-a-nome.html">Sobre a 'nome'</a>
+                <a class="cabecalho_menu_item" href="sobre-a-nome.html">Sobre a Agda Natalia</a>
                 <a class="cabecalho_menu_item" href="contato.html">Contato</a>
                 <a class="cabecalho_horario" href="produtos.html">Marcar horário</a>
             </ul>
@@ -31,8 +31,10 @@
             <div class="container_marca">
                 
                 <div class="div_texto">
-                    <h1 class="titulo_marca">Agda Natlia | Nutricionista</h1>
-                    <p class="texto_apresentacao">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                    <h1 class="titulo_marca">Agda Natalia | Nutricionista</h1>
+                    <p class="texto_apresentacao">Quer melhorar sua saúde e alcançar o corpo dos seus sonhos?</p>
+                    <p class="texto_apresentacao"> Agda Natalia é a nutricionista ideal para te guiar nessa jornada! Ofereço planos de nutrição personalizados para pessoas de todas as idades, focados em promover saúde, bem-estar e resultados sustentáveis.
+                        Meus serviços são pensados para quem deseja melhorar sua qualidade de vida, adotando hábitos saudáveis de forma prática e sem extremismos. Vamos juntos construir um caminho para você conquistar seus objetivos e se sentir melhor a cada dia!</p>
                 </div>
                 <div class="div_banner">
                     <img  class="img_banner" src="imgs/banner.jpg.png" alt="">
@@ -41,7 +43,37 @@
         </section>
 
         <section class="section_2">
+            <div class="container_servicos">
+                <div class="div_titulo">
+                    <h2>Serviços</h2>
+                </div>
+                <div class="div_lista">
+                    
+                    <hr class="linha">
+                        <button onclick="mostrarTexto('texto-basico')">Serviços básicos</button>
+                        <p id="texto-basico" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que  implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
 
+                        <button onclick="mostrarTexto('texto-intermediario')">Serviços intermediário</button>
+                        <p id="texto-intermediario" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
+
+                        <button onclick="mostrarTexto('texto-avancado')">Serviços avançado</button>
+                        <p id="texto-avancado" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
+                        <script>
+                            function mostrarTexto(id) {
+                                var texto = document.getElementById(id);
+                                if (texto.style.display === "none") {
+                                    texto.style.display = "block"; // Exibir o texto
+                                } else {
+                                    texto.style.display = "none"; // Esconder o texto, se clicado novamente
+                                    }
+                                }
+                        </script>
+                        
+                </div>
+            </div>
         </section>
         <section class="section_3">
 
@@ -66,7 +98,7 @@
                 <div class="rodape_lista">
                     <h2 class="titulo_rodape">Horário</h2>   
                     <p>De segunda a sexta</p>
-                    <p>Das 08:00 às 18:00</p>
+                    <p>Das 09:00 às 21:00</p>
                 </div>
             </div>
         

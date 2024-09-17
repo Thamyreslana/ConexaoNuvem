@@ -1,3 +1,4 @@
+/* SECTION 1 */
 .section_1 {
     padding: 2rem;
 }
@@ -12,6 +13,7 @@
     background: linear-gradient(135deg, #d0efff, #fad4c0);
     align-items: center;
     border-radius: 18px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .titulo_marca {
@@ -34,4 +36,27 @@
     width: 500px;
     border-radius: 100%;
     margin: .75rem;
+}
+
+/* SECTION 2 */
+
+.container_servicos {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_titulo {
+    margin: 1rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.div_lista{
+    margin: 1rem;
+}
+
+.texto {
+    display: none;
 }
