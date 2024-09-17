@@ -41,7 +41,37 @@
         </section>
 
         <section class="section_2">
+            <div class="container_servicos">
+                <div class="div_titulo">
+                    <h2>Serviços</h2>
+                </div>
+                <div class="div_lista">
+                    
+                    <hr class="linha">
+                        <button onclick="mostrarTexto('texto-basico')">Serviços básicos</button>
+                        <p id="texto-basico" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que  implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
 
+                        <button onclick="mostrarTexto('texto-intermediario')">Serviços intermediário</button>
+                        <p id="texto-intermediario" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
+
+                        <button onclick="mostrarTexto('texto-avancado')">Serviços avançado</button>
+                        <p id="texto-avancado" class="texto">O que devemos saber sobre o serviço? Quanto custa? O que implica? Melhores descrições geram mais vendas.</p>
+                        <hr class="linha">
+                        <script>
+                            function mostrarTexto(id) {
+                                var texto = document.getElementById(id);
+                                if (texto.style.display === "none") {
+                                    texto.style.display = "block"; // Exibir o texto
+                                } else {
+                                    texto.style.display = "none"; // Esconder o texto, se clicado novamente
+                                    }
+                                }
+                        </script>
+                        
+                </div>
+            </div>
         </section>
         <section class="section_3">
 
