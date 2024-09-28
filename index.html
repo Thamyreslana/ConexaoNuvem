@@ -35,13 +35,17 @@
                     <p class="texto_apresentacao">Quer melhorar sua saúde e alcançar o corpo dos seus sonhos?</p>
                     <p class="texto_apresentacao"> Agda Natalia é a nutricionista ideal para te guiar nessa jornada! Ofereço planos de nutrição personalizados para pessoas de todas as idades, focados em promover saúde, bem-estar e resultados sustentáveis.
                         Meus serviços são pensados para quem deseja melhorar sua qualidade de vida, adotando hábitos saudáveis de forma prática e sem extremismos. Vamos juntos construir um caminho para você conquistar seus objetivos e se sentir melhor a cada dia!</p>
+                    
+                    <div class="div_link">
+                        <a class="link_sobre" href="sobre-a-nome.html">Saiba mais</a>
+                    </div>   
                 </div>
                 <div class="div_banner">
                     <img  class="img_banner" src="imgs/banner.jpg.png" alt="">
                 </div>
             </div>
         </section>
-
+        
         <section class="section_2">
             <div class="container_servicos">
                 <div class="div_titulo">
@@ -52,21 +56,21 @@
                     <hr class="linha">
     
                     <input type="checkbox" id="toggle1" style="display:none;">
-                    <label for="toggle1">Serviço básico</label>
+                    <label for="toggle1" class="label_servicos">Serviço básico</label>
                     <div class="texto">
                         <p>Esse é o texto para o Serviço Básico! </p>
                     </div>
                     <hr class="linha">
                 
                     <input type="checkbox" id="toggle2" style="display:none;">
-                    <label for="toggle2">Serviço intermediário</label>
+                    <label for="toggle2" class="label_servicos">Serviço intermediário</label>
                     <div class="texto">
                         <p>Esse é o texto para o Serviço Intermediário!</p>
                     </div>
                     <hr class="linha">
                 
                     <input type="checkbox" id="toggle3" style="display:none;">
-                    <label for="toggle3">Serviço avançado</label>
+                    <label for="toggle3" class="label_servicos">Serviço avançado</label>
                     <div class="texto">
                         <p>Esse é o texto para o Serviço Avançado!</p>
                     </div>
@@ -131,6 +135,27 @@
 
                 </div>
             </div>    
+        </section>
+        <section class="section_4">
+            <div class="container_formulario">
+                <div class="div_texto-formulario">
+                    <h2 class="titulo_formulario">Fale conosco</h2>
+                    <p class="texto_formulario">Descreva os possíveis motivos para entrar em contato com você; e o que esperar após o envio da mensagem. Para receber os formulários, você precisará de uma opção de armazenamento.</p>
+                </div>
+                <div class="div_formulario">
+                    <form class="formulario">
+                        <label for="email" class="label_form">E-mail (obrigatorio)</label>
+                        <input type="email" id="email" name="email" class="form_type" required>
+
+                        <label for="texto" class="label_form">Mensagem (obrigatorio)</label>
+                        <textarea class="form_type" id="message" name="message" required></textarea>
+                        
+                        <div class="div_btn-enviar">   
+                            <button type="submit" class="btn_enviar-form">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 

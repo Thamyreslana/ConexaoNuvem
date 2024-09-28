@@ -38,6 +38,25 @@
     margin: .75rem;
 }
 
+.div_link {
+    width: 8rem;
+    padding: .85rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link_sobre {
+    text-decoration: none;
+    color: black;
+}
+
 /* SECTION 2 */
 
 .section_2 {
@@ -62,7 +81,7 @@
     margin: o auto;
 }
 
-label {
+.label_servicos {
     display: block;
     background-color: transparent;
     color: black;
@@ -73,7 +92,7 @@ label {
     font-size: 19px;
 }
 
-label:hover {
+.label_servicos:hover {
     background-color: white;
     border-color: white;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* SOMBRA */
@@ -224,3 +243,73 @@ hr.linha {
     color: #fff;
   }
   
+/* SECTION 4 */
+
+.section_4 {
+    margin: 3rem 0;
+    
+}
+
+.container_formulario {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_texto-formulario {
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.titulo_formulario {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.texto_formulario {
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+}
+
+.div_formulario {
+    width: 100%;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.label_form {
+    display: block;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.form_type {
+    width: 100%;
+    margin: 0 3rem 0 1rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.85rem;
+    
+}
+
+.btn_enviar-form {
+    padding: .85rem 2rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
