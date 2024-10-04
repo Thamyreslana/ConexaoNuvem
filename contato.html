@@ -27,7 +27,81 @@
     </header>
     
     <main>
-        <!--conteudo-->
+        <section class="section_1">
+            <div class="container_formulario-contato"> 
+                <div class="div_fale-conosco">
+                    <h2 class="titulo_fale-conosco">Fale Conosco</h2>
+                    <p class="texto_fale-conosco">Descreva os possíveis motivos para entrar em contato com você; e o que esperar após o envio da mensagem. Para receber os formulários, você precisará de uma opção de armazenamento.</p>
+                    <p class="texto_informacoes">e-mail@exemplo.com <br>
+                        (055)1234-5678 <br>
+                        Rua Exemplo, 123 <br>
+                        Nova York, NY 123435 
+                    </p>
+                </div>
+                <div class="div_form-contato">
+                    <form id="formularioContato" class="form_contato" action="https://api.staticforms.xyz/submit" method="POST">
+                        
+                        <label class="label_contato">Nome</label>
+                            <input class="input_contato" type="text" name="name" placeholder="obrigatorio" required>    
+                        <label class="label_contato">E-mail</label>
+                            <input class="input_contato" type="email" name="email" placeholder="obrigatorio" required>
+                        <label class="label_contato">Mensagem</label>
+                            <textarea name="textarea_mensagem" placeholder="digite sua mensagem" required></textarea>
+                        
+                        <div class="btn_form">
+                            <button class="btn_formulario-contato" type="submit"> ENVIAR </button>
+                        </div>
+                        
+                        <input type="hidden" name="accessKey" value="66ee1faf-696e-4741-96c2-0beff3437f16">
+                    </form>
+                    
+                    <div id="confirmacaoEmail" style="display: none; color: black; margin-top: 10px;">
+                        Seu contato foi enviado com sucesso para nosso e-mail, e em breve retornaremos seu contato.
+                    </div>
+
+                    <script>
+                        document.getElementById('formularioContato').addEventListener('submit', function(event){
+                            event.preventDefault();
+
+                            document.getElementById('confirmacaoEmail').style.display = 'block';
+
+                            this.reset();
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </section>
+        <section class="section_2">
+            <div class="faq">
+
+                <h2 class="titulo_duvidas">Duvidas frequentes</h2>
+
+                <input type="checkbox" class="input_faq" id="faq1" style="display: none">
+                <label for="faq1" class="label_faq">Duvida 1</label>
+                <div class="div_texto-faq">
+                    <p class="texto_faq">Resposta da pergunta</p>
+                </div>
+
+                <input type="checkbox" class="input_faq" id="faq2" style="display: none">
+                <label for="faq2" class="label_faq">Duvida 2</label>
+                <div class="div_texto-faq">
+                    <p class="texto_faq">Resposta da pergunta</p>
+                </div>
+
+                <input type="checkbox" class="input_faq" id="faq3" style="display: none">
+                <label for="faq3" class="label_faq">Duvida 3</label>
+                <div class="div_texto-faq">
+                    <p class="texto_faq">Resposta da pergunta</p>
+                </div>
+
+                <input type="checkbox" class="input_faq" id="faq4" style="display: none">
+                <label for="faq4" class="label_faq">Duvida 4</label>
+                <div class="div_texto-faq">
+                    <p class="texto_faq">Resposta da pergunta</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
