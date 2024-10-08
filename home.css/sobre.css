@@ -1,0 +1,31 @@
+.container_sobre {
+    flex: 0.75;
+}
+
+.img_agda {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.titulo_sobre {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-right: 45px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 17px;
+}
+
+.texto_main{
+    flex: 1.25;
+    margin-left: 100px;
+}
+
+.texto_main p {
+    margin-left: 75px;
+}

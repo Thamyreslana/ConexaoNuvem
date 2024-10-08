@@ -3,6 +3,7 @@
 @import url(home.css/rodape.css);
 @import url(home.css/index.css);
 @import url(home.css/contato.css);
+@import url(home.css/sobre.css);
 
 :root {
     --cor-fundo-pagina: white;     /* Isso são variaveris de CSS*/
