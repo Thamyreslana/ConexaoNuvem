@@ -1,4 +1,75 @@
 
+.section_4 {
+    margin: 3rem 0;
+    
+}
+
+.container_formulario {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_texto-formulario {
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.titulo_formulario {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.texto_formulario {
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+}
+
+.div_formulario {
+    width: 100%;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.label_form {
+    display: block;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.form_type {
+    width: 100%;
+    margin: 0 3rem 0 1rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.85rem;
+    
+}
+
+.btn_enviar-form {
+    padding: .85rem 2rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+
+/*
 .container_formulario-contato {
     max-width: 1200px;
     margin: auto;
@@ -66,13 +137,13 @@
 }
 
 #confirmacaoEmail {  /*javaScript*/
-    color: black;
+   /* color: black;
     margin-top: 10px;
     font-weight: bold;
 }
 
 /* SECTION 2*/
-
+/*
 .section_2 {
     margin: 3rem 0;
 }
@@ -121,6 +192,7 @@
 }
 
 /* Mostra o texto relacionado quando o checkbox é marcado */
+/*
 input[type="checkbox"]:checked + label + .div_texto-faq {
     display: block;
 }
