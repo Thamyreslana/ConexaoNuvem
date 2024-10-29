@@ -3,11 +3,7 @@
 @import url(home.css/rodape.css);
 @import url(home.css/index.css);
 @import url(home.css/contato.css);
-<<<<<<< HEAD
 @import url(home.css/whatsapp.css);
-=======
-@import url(home.css/sobre.css);
->>>>>>> cae8ea6845a905bcf7bf94c9d792a0c6c72f1f15
 
 :root {
     --cor-fundo-pagina: white;     /* Isso são variaveris de CSS*/
