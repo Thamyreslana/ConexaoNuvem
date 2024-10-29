@@ -11,8 +11,13 @@
 <body>
     
     <header class="cabecalho">
-
-        <div class="cabecalho_conteudo">
+        <div class="overlay"></div>
+        <div class="texto_sobre-img">
+            <h1 class="titulo_header">Agda Natalia Nutri</h1>
+            <p class="texto_header">Aqui o PROTAGONISTA é você!</p>
+        </div>    
+       
+        <!--<div class="cabecalho_conteudo">
             <div class="cabecalho_logo">
                 <a class="cabecalho_titulo" href="index.html"> Logo / Titulo</a>
             </div>
@@ -22,11 +27,12 @@
                 <a class="cabecalho_menu_item" href="contato.html">Contato</a>
                 <a class="cabecalho_horario" href="produtos.html">Marcar horário</a>
             </ul>
-        </div>  
+        </div>-->  
 
     </header>
     
     <main>
+
         <section class="section_1">
             <div class="container_marca">
                 
@@ -143,12 +149,15 @@
                     <p class="texto_formulario">Descreva os possíveis motivos para entrar em contato com você; e o que esperar após o envio da mensagem. Para receber os formulários, você precisará de uma opção de armazenamento.</p>
                 </div>
                 <div class="div_formulario">
-                    <form class="formulario">
+                    <form action="/php/enviar-email.php" method="post" class="formulario">
                         <label for="email" class="label_form">E-mail (obrigatorio)</label>
                         <input type="email" id="email" name="email" class="form_type" required>
 
+                        <label for="text" class="label_form">Nome (obrigatorio)</label>
+                        <input type="text" id="nome" name="nome" class="form_type" required>
+
                         <label for="texto" class="label_form">Mensagem (obrigatorio)</label>
-                        <textarea class="form_type" id="message" name="message" required></textarea>
+                        <textarea class="form_type" id="message" name="mensagem" required></textarea>
                         
                         <div class="div_btn-enviar">   
                             <button type="submit" class="btn_enviar-form">Enviar</button>
@@ -157,6 +166,11 @@
                 </div>
             </div>
         </section>
+
+        <a class="whatsapp-link" href="https://wa.me/5511991913499?text=Olá%20Agda!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20nutrição." target="_blank">
+        <i class="fa fa-whatsapp"></i>
+        </a>
+        
     </main>
 
     <footer>
