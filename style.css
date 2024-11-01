@@ -4,23 +4,19 @@
 @import url(home.css/index.css);
 @import url(home.css/contato.css);
 @import url(home.css/whatsapp.css);
+@import url(home.css/section1.css);
+@import url(home.css/section2.css);
 
 :root {
-    --cor-fundo-pagina: white;     /* Isso são variaveris de CSS*/
-    --cor-fonte-pagina: #031120;
-    --cor-fonte-horario: white;
-
-    
-    --cor-cabecalho-rodape: (135deg, #d0efff, #fad4c0);
-    --cor-cabecalho-horario: black;
-    --cor-detalhes: #F9F7F7;
+    --cor-fundo-pagina: #E5E0D8;
+    --elementos-destaque: #809671;      /* botoes links entre outros */
+    --barra-navegacao-rodape: #725C3A;
+    --texto-principal: #725C3A;
+    --cabecalho-titulos: #B3B792;
 }
 
-
 body {
-    
-    margin: 0 auto;
-    
-    background-color: var(--cor-fundo-pagina);
 
+    margin: 0 auto;
+    background-color: var(--cor-fundo-pagina);
 }
