@@ -37,7 +37,7 @@
             <div class="container_sobre">
                 
                 <div class="div_texto">
-                    <h4 class="titulo_marca">Agda Natalia | Nutricionista</h4>
+                    <h4 class="titulo_marca">Agda Natalia  Nutricionista</h4>
                     <p class="texto_apresentacao">Quer melhorar sua saúde e alcançar o corpo dos seus sonhos?</p>
                     <p class="texto_apresentacao"> Agda Natalia é a nutricionista ideal para te guiar nessa jornada! Ofereço planos de nutrição personalizados para pessoas de todas as idades, focados em promover saúde, bem-estar e resultados sustentáveis.
                         Meus serviços são pensados para quem deseja melhorar sua qualidade de vida, adotando hábitos saudáveis de forma prática e sem extremismos. Vamos juntos construir um caminho para você conquistar seus objetivos e se sentir melhor a cada dia!</p>
@@ -60,14 +60,16 @@
                         <p>Ofereço acompanhamento especializado em emagrecimento, hipertrofia, qualidade de vida e estética. Trabalho com protocolos de 3 e 6 meses, incluindo avaliação corporal detalhada, plano alimentar personalizado, suporte 24h via app e contato direto comigo. Minha abordagem é personalizada, usando alimentos e horários adaptados à rotina do paciente, com ajustes constantes para garantir resultados consistentes.</p>
 
                         <div class="redes_sociais">
+                            <!--
                             <a href="" target="_blank">
-                                <img src="" alt="link e icone do linkedin de Agda">
+                                <img src="/imgs/linkedin.png" alt="link e icone do linkedin de Agda">
                             </a>
                             <a href="" target="_blank">
-                                <img src="" alt="link e icone do instagram de Agda">
+                                <img src="/imgs/instagram (1).png" alt="link e icone do instagram de Agda">
                             </a>
-                            <a href="" target="_blank">
-                                <img src="" alt="icone do Whatsapp de Agda">
+                            -->
+                            <a href="https://wa.me/5511991913499?text=Olá%20Agda!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20nutrição." target="_blank"> 
+                                <img src="/imgs/whatsapp1.png" alt="icone do Whatsapp de Agda">
                             </a>
                         </div>
                     </div>
@@ -77,12 +79,11 @@
             </div>
         </section>
 
-        <section class="resultados">
+        <section class="cards">
             
         </section>
-
-        
-        <section class="section_2">
+         
+        <section class="servicos">
             <div class="container_servicos">
                 <div class="div_titulo">
                     <h2>Serviços</h2>
@@ -115,7 +116,36 @@
                 </div>
             </div>
         </section>
-        <section class="section_3">
+
+        <section class="contato" id="contato">
+            <div class="container_formulario">
+                <div class="div_texto-formulario">
+                    <h2 class="titulo_formulario">Fale conosco</h2>
+                        <p class="texto_formulario">Descreva os possíveis motivos para entrar em contato com você; e o que esperar após o envio da mensagem. Para receber os formulários, você precisará de uma opção de armazenamento.</p>
+
+                        <form id="contatoForm" method="post" class="formulario">
+                            <label for="email" class="label_form">E-mail (obrigatorio)</label>
+                            <input type="email" id="email" name="email" class="form_type" required>
+    
+                            <label for="text" class="label_form">Nome (obrigatorio)</label>
+                            <input type="text" id="nome" name="nome" class="form_type" required>
+    
+                            <label for="texto" class="label_form">Mensagem (obrigatorio)</label>
+                            <textarea class="form_type" id="message" name="mensagem" required></textarea>
+                            
+                            <div class="div_btn-enviar">   
+                                <button type="submit" class="btn_enviar-form">Enviar</button>
+                            </div>
+                        </form>           
+                </div>
+                <div class="mapa">
+                    <h3>Localização da loja</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.140583790735!2d-46.75921682466755!3d-23.635135878749143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53edd17c49d9%3A0x4390381cd98ee09a!2sNutricionista%20e%20Coach%20Agda%20Natalia!5e0!3m2!1spt-BR!2sbr!4v1730663410007!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
             <div class="container-redes_sociais">
                 <h2 class="titulo-redes_sociais"> Siga -me nas redes sociais</h2>
                 <div class="div_img">
@@ -172,30 +202,6 @@
                 </div>
             </div>    
         </section>
-        <section class="section_4" id="contato">
-            <div class="container_formulario">
-                <div class="div_texto-formulario">
-                    <h2 class="titulo_formulario">Fale conosco</h2>
-                    <p class="texto_formulario">Descreva os possíveis motivos para entrar em contato com você; e o que esperar após o envio da mensagem. Para receber os formulários, você precisará de uma opção de armazenamento.</p>
-                </div>
-                <div class="div_formulario">
-                    <form id="contatoForm" method="post" class="formulario">
-                        <label for="email" class="label_form">E-mail (obrigatorio)</label>
-                        <input type="email" id="email" name="email" class="form_type" required>
-
-                        <label for="text" class="label_form">Nome (obrigatorio)</label>
-                        <input type="text" id="nome" name="nome" class="form_type" required>
-
-                        <label for="texto" class="label_form">Mensagem (obrigatorio)</label>
-                        <textarea class="form_type" id="message" name="mensagem" required></textarea>
-                        
-                        <div class="div_btn-enviar">   
-                            <button type="submit" class="btn_enviar-form">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
 
         <a class="whatsapp-link" href="https://wa.me/5511991913499?text=Olá%20Agda!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20nutrição." target="_blank">
         <i class="fa fa-whatsapp"></i>
@@ -238,5 +244,6 @@
     </footer>
 
     <script src="/JS/form-whatsapp.js"></script>
+    
 </body>
 </html>
