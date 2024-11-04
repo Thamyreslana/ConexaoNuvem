@@ -52,15 +52,23 @@
 
 .btn_enviar-form {
     padding: .85rem 2rem;
+    background-color: var(--elementos-destaque);
     border-radius: 30px;
     border: 2.5px solid;
-    border-color: black;
+    border-color: var(--elementos-destaque);
     font-size: 1.2rem;
     margin: auto;
     margin-top: 1rem;
     text-align: center;
     cursor: pointer;
     margin-left: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.btn_enviar-form:hover {
+    transform: scale(1.05);
 }
 
 .div_btn-enviar {
@@ -73,14 +81,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
 }
 
 .mapa h3 {
-    margin-bottom: 0.5rem;
     font-size: 2rem;
     font-weight: 100;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 

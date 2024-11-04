@@ -1,12 +1,9 @@
-.servicos {
-    margin: 3rem 0;
-}
-
 .container_servicos {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .div_titulo {
