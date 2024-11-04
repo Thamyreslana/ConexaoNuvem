@@ -1,0 +1,86 @@
+
+.contato {
+    margin: 3rem 0;
+    
+}
+
+.container_formulario {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_texto-formulario {
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.titulo_formulario {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.texto_formulario {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.label_form {
+    display: block;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.form_type {
+    width: auto;
+    margin: 0 3rem 0 1rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.85rem;
+    
+}
+
+.btn_enviar-form {
+    padding: .85rem 2rem;
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: black;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.div_btn-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.mapa h3 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+

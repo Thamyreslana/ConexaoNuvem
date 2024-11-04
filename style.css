@@ -1,26 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url(home.css/cabecalho.css);
 @import url(home.css/rodape.css);
-@import url(home.css/index.css);
-@import url(home.css/contato.css);
 @import url(home.css/whatsapp.css);
+@import url(home.css/sectionSobre.css);
+@import url(home.css/sectionTrabalho.css);
+@import url(/home.css/sectionServico.css);
+@import url(/home.css/sectionContato.css);
+@import url(/home.css/sectionBlog.css);
 
 :root {
-    --cor-fundo-pagina: white;     /* Isso são variaveris de CSS*/
-    --cor-fonte-pagina: #031120;
-    --cor-fonte-horario: white;
+    --cor-fundo-pagina: #E5E0D8;
+    --elementos-destaque: #809671;      /* botoes links entre outros */
+    --barra-navegacao-rodape: #725C3A;
+    --texto-principal: #725C3A;
+    --cabecalho-titulos: #B3B792;
 
-    
-    --cor-cabecalho-rodape: (135deg, #d0efff, #fad4c0);
-    --cor-cabecalho-horario: black;
-    --cor-detalhes: #F9F7F7;
+    --font-lato: 'lato', sans-serif;
+    --font-montserrat: 'montserrat', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
 }
 
-
 body {
-    
     margin: 0 auto;
-    
     background-color: var(--cor-fundo-pagina);
 
+    font-family: var(--font-montserrat);
 }
