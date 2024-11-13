@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .div_texto-formulario {
@@ -39,8 +40,8 @@
 }
 
 .form_type {
-    width: auto;
-    margin: 0 3rem 0 1rem;
+    width: 50%;
+    margin: 0 0 1rem 0;
     border-radius: 30px;
     border: 2.5px solid;
     border-color: black;
@@ -79,8 +80,6 @@
 
 .mapa {
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .mapa h3 {
@@ -90,3 +89,39 @@
     margin-bottom: 0.5rem;
 }
 
+@media screen and (max-width: 480px) {
+    .container_formulario {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contato {
+        margin: 1rem;
+    }
+    
+    .titulo_formulario {
+        font-size: 1.5rem;
+    }
+
+    .texto_formulario {
+        font-size: 0.9rem;
+    }
+
+    .label_form {
+        font-size: 0.9rem;
+    }
+
+    .form_type {
+        margin: 0;
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .btn_enviar-form {
+        font-size: 1rem;
+    }
+
+    .mapa {
+        margin-top: 0;
+    }
+}

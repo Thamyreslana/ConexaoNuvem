@@ -32,3 +32,21 @@ footer {
     color: var(--cor-fundo-pagina);
     font-size: 1.1rem;
 }
+
+@media screen and (max-width: 480px) {
+    .conteudo_rodape {
+        flex-direction: column;
+    }
+    
+    .titulo_rodape {
+        font-size: 1rem;
+    }
+
+    .rodape_lista p {
+        font-size: 0.85rem; /* Ajusta ainda mais o tamanho da fonte */
+    }
+
+    .rodape_copy {
+        font-size: 0.95rem;
+    }
+}
