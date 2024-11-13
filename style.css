@@ -3,11 +3,12 @@
 @import url(home.css/cabecalho.css);
 @import url(home.css/rodape.css);
 @import url(home.css/whatsapp.css);
+@import url(home.css/instagram.css);
+@import url(/home.css/sectionCards.css);
 @import url(home.css/sectionSobre.css);
 @import url(home.css/sectionTrabalho.css);
-@import url(/home.css/sectionServico.css);
 @import url(/home.css/sectionContato.css);
-@import url(/home.css/sectionBlog.css);
+@import url(/home.css/sectionDicas.css);
 
 :root {
     --cor-fundo-pagina: #E5E0D8;
