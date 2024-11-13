@@ -91,3 +91,35 @@
 .link_sobre:hover {
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 500px) {
+    .sobre {
+        padding: 1rem;
+    }
+
+    .container_sobre {
+        padding: 0;
+    }
+    
+    .titulo_marca {
+        display: none;
+    }
+
+    .div_texto {
+        font-size: 0.95em;
+        line-height: 1.5rem;
+    }
+
+    .div_banner {
+        display: none;
+    }
+
+    .img_banner { 
+        display: none;
+    }
+
+    .redes_sociais a img {
+        width: 25px; 
+        height: 25px;
+    }
+}

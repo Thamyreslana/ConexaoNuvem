@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .titulo_dicas {
@@ -46,4 +47,30 @@
 
 .swiper-button-prev {
     color: var(--elementos-destaque);
+}
+
+@media screen and (max-width:480px) {
+    .dicas {
+        margin: 1rem;  
+    }
+
+    .container_dicas {
+        margin: auto;  
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .titulo_dicas {
+        font-size: 1.5rem;  
+    }
+
+    .swiper {
+        width: 100%;  /* O swiper ocupa toda a largura da tela */
+    }
+
+    .img-dicas {
+        width: 100%;  /* As imagens ocupam toda a largura */
+    }
 }
