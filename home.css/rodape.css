@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--cor-cabecalho-rodape); 
+    background-color: var(--barra-navegacao-rodape); 
     color: var(--cor-fonte-pagina); 
     padding: 20px; 
     text-align: center; 
@@ -18,17 +18,17 @@ footer {
 .titulo_rodape {
     margin-bottom: 2.2rem;
     font-size: 1.2rem;
-    color: var(--cor-fonte-pagina);
+    color: var(--cor-fundo-pagina);
 }
 
 .rodape_lista p {
     margin-bottom: .55rem;
-    color: var(--cor-fonte-pagina);
+    color: var(--cor-fundo-pagina);
     font-size: 1rem;
 }
 
 .rodape_copy {
     padding: 1rem;
-    color: var(--cor-fonte-pagina);
+    color: var(--cor-fundo-pagina);
     font-size: 1.1rem;
 }
